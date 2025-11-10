@@ -8,16 +8,13 @@ main(){
 	
 	printf("Quanto tempo na empresa?: ");
 	scanf("%i", &tempoServico);
-	printf("Digite seu salário: ");
+	printf("Digite seu salÃ¡rio: ");
 	scanf("%f", &salario);
 	
 	if(tempoServico > 5){
 		salario = salario + 500;
 	}
 	
-	printf("Salário: R$ %.2f\n", salario);
-
+	printf("SalÃ¡rio: R$ %.2f\n", salario);
 }
 
-//Quando colocar chave, não colocar ponto e virgula
-//media >= 7.0 && presenca >= 0.75
